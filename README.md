@@ -1,9 +1,6 @@
 [Nix] expression to generate easyrsa certificates (eg. OpenVPN).
 
-#. Install Nix Package Manager
-
-#. Edit `fields` in default.nix
-
-#. $ nix-build
-
-#. Find your certificates in given output directory
+1. Install Nix Package Manager
+2. Edit `fields` in default.nix
+3. $ nix-build
+4. Find your certificates in given output directory
